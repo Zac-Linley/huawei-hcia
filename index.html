@@ -237,6 +237,24 @@
         readyTransition: true, //在等待网站初始化时是否显示一个加载指示器，在初始化完成后再进行淡化过渡(默认为true)
         responsiveTables: true  // 表格水平翻滚(默认为true)
       },
+
+      // Flexible Alerts
+      'flexible-alerts': {
+        style: 'flat', //风格样式 'callout'(图片左) or 'flat'(图片右)
+        cmd: {
+          label: "🔴🟡🟢",
+          className: 'note'
+        },
+        tip: {
+          label: "Tipp"
+        },
+        warning: {
+          label: "Warnung"
+        },
+        attention: {
+          label: "Achtung"
+        }
+      },
     }
   </script>
   <!-- Docsify v4 -->
@@ -282,6 +300,8 @@
   <script src="//unpkg.com/mermaid/dist/mermaid.js"></script>
   <script src="//unpkg.com/docsify-mermaid@latest/dist/docsify-mermaid.js"></script>
   <script>mermaid.initialize({ startOnLoad: true });</script>
+  <!-- Flexible Alerts -->
+  <script src="//unpkg.com/docsify-plugin-flexible-alerts"></script>
 </body>
 
 </html>

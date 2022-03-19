@@ -84,6 +84,8 @@ VRP提供基本的权限控制，可以实现不同级别的用户能够执行�
 
 <img src="https://linley.oss-cn-shanghai.aliyuncs.com/typora_image/华为VRP系统基础2022-03-19-13-40-47.png" alt="华为VRP系统基础2022-03-19-13-40-47" width="" height="">
 
+?> 路由器的缺省用户名为`admin`，缺省密码为`Admin@huawei`
+
 ### 9.2.5 命令行方式—本地登录
 
 设备登录的两种方式分为两种：本地登录和远程登录。
